@@ -1,0 +1,45 @@
+body{
+  margin: 0px;
+}
+
+/*HEADER STYLES*/
+.header{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding: 10px 30px 10px 30px;
+}
+
+.logo{
+  display: flex;
+  align-items: flex-start;
+}
+
+.logo img{
+  padding-right: 10px;
+}
+
+.logo p{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  margin-top: 20px;
+}
+
+.nav{
+  display: flex;
+}
+
+nav span{
+  justify-content: space-between;
+}
+
+a{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
