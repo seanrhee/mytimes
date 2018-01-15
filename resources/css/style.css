@@ -12,6 +12,8 @@ body{
   padding: 10px 30px 10px 30px;
   box-sizing: border-box;
   position: fixed;
+  z-index: 20;
+  background-color: white;
 }
 
 .logo{
@@ -40,9 +42,82 @@ nav span{
   justify-content: space-between;
 }
 
-a{
+nav span a{
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   color: black;
+}
+
+/*MAIN STYLES*/
+.column{
+  display: flex;
+  padding-top: 110px;
+  margin: 0px 30px;
+  border: 1px solid black;
+  justify-content: space-around;
+}
+
+.column .large {
+  width: 630px;
+  border: 1px solid black;
+  /*display: flex;*/
+}
+
+.column .medium {
+  width: 300px;
+  border: 1px solid black;
+  /*display: flex;*/
+}
+
+.column .small {
+  width: 240px;
+  border: 1px solid black;
+  /*display: flex;*/
+}
+
+.story{
+  border: 1px solid black;
+}
+
+.picstory{
+  border: 1px solid black;
+  height: 300px;
+}
+
+.copy{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.pictitle{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+#maintitle{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+#mainstory{
+  background-image: url(../img/img-story-main.png);
+  height: 300px;
+}
+
+#picstory1{
+  background-image: url(../img/img-story-2.png);
+}
+
+#picstory2{
+  background-image: url(../img/img-story-3.png);
+}
+
+#picstory3{
+  background-image: url(../img/img-story-1.png);  
 }
